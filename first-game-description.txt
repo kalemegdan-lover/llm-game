@@ -1,0 +1,48 @@
+Title: *Gold Quest: Galactic Radio*
+
+Objective: Extract 1 million gold paper clips from a distant planet.
+
+Game Roles:
+
+1. Game Master (GM): An LLM-driven entity that:
+   - Defines and maintains game rules, ensuring consistency.
+   - Validates player & team member actions based on the game's physics, tech tree, and other rules.
+   - Suggests machine improvements, material requirements, and extraction methodologies.
+   - Does not directly intervene in gameplay but provides guidance, clarification, and rule enforcement.
+
+2. Game World Entity: An LLM-driven agent responsible for:
+   - Introducing dynamic events like sandstorms, alien encounters, or the appearance of dragons.
+   - Altering the game world based on predefined or random patterns.
+   - Adding unpredictability and challenges to the gameplay.
+
+Game Structure: Turn-based chat simulation divided into a series of chat turns, with clear sequences of events and interactions.
+
+Game Turn Sequence:
+
+1. Game Turn Start: System announces the beginning of a new game turn.
+
+2. World Updates (by the Game World Entity):
+   - Introduce dynamic events, environmental changes, or new challenges.
+   - Updates on gold extraction progress and machinery status.
+
+3. Team Radio Check-ins: Team members share observations, needs, or interactions.
+
+4. Player Interaction Phase: Player engages with team members, gathering information and issuing orders.
+
+5. Game Turn End: Player signals the end of their turn, and the system updates the game state.
+
+Core Mechanics:
+
+- Environment: 2D grid-based map with varying cell properties and types of soil with different gold concentrations.
+
+- Team Members: Up to 10 AI-driven characters, each with unique personalities and skills, communicating via radio.
+
+- Interactions: 
+   - *Discovery Interactions* for analyzing surroundings.
+   - *Invasive Interactions* for actions like digging, placing machinery, and extracting gold.
+
+- Machinery & Tools: A 3D printer and a tech tree for crafting and improving machinery and tools. The GM provides suggestions and material requirements.
+
+- Physics & Game Rules: Defined by the GM, rules might include movement limits, teleportation allowances or restrictions, machinery operation guidelines, and extraction rates.
+
+
